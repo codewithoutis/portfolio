@@ -428,3 +428,16 @@
 .testimonial-carousel .owl-dot.active::after {
     background: var(--primary);
 }
+
+
+/* Customisation */
+.navbar-brand img {
+    width: 5em;
+    height: 4em;
+    margin-top: -1em;
+}
+
+.pers-port {
+    width: 500px;
+    height: 350px;
+}
