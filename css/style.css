@@ -106,7 +106,8 @@
 /*** Header ***/
 #home {
     margin-bottom: 6rem;
-    background: url(../img/bg-header.png) left top no-repeat;
+    /* Customisation */
+    background: url(../img/bg-header_1.png) left top no-repeat;
 }
 
 .typed-cursor {
@@ -343,7 +344,7 @@
 .testimonial-right img {
     position: absolute;
     padding: 5px;
-    border: 1px solid var(--secondary);
+    border: 1px solid var(--primary);
     border-radius: 70px;
 }
 
@@ -389,7 +390,7 @@
     align-items: center;
     justify-content: center;
     background: #FFFFFF;
-    border: 1px solid var(--secondary);
+    border: 1px solid var(--primary);
     border-radius: 60px;
 }
 
@@ -408,7 +409,7 @@
     width: 30px;
     height: 30px;
     background: #FFFFFF;
-    border: 2px solid var(--secondary);
+    border: 2px solid var(--primary);
     border-radius: 30px;
     transition: .5s;
 }
@@ -421,7 +422,7 @@
     top: 5px;
     left: 5px;
     border-radius: 16px;
-    background: var(--secondary);
+    /* background: var(--dark); */
     transition: .5s;
 }
 
@@ -441,3 +442,9 @@
     width: 500px;
     height: 350px;
 }
+
+/* .team-mem {
+    height: 420px;
+    width: 300px;
+} */
+
